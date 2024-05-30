@@ -12,7 +12,7 @@ import pandas as pd
 
 
 #loading the saved model
-loaded_model = pickle.load(open('trained_model.sav','rb'))
+loaded_model = pickle.load(open('/mount/src/question4/trained_model.sav','rb'))
 
 
 def heart_disease_prediction(input_data):
