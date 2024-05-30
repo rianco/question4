@@ -1,4 +1,3 @@
 pickle-mixin
 numpy
 pandas
-pickle-mixin
