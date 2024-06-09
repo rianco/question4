@@ -28,9 +28,9 @@ def heart_disease_prediction(input_data):
     prediction = loaded_model.predict(df)
     print(prediction)
     if(prediction[0]==0):
-        return "The pacient is Healthy"
+        return "The patient is Healthy"
     else:
-        return "The pacient have a heart disease"
+        return "The patient have a heart disease"
     
 def main():
      #giving a title
